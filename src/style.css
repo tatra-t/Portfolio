@@ -1,0 +1,30 @@
+/* #13605A
+
+
+
+
+ */
+:root {
+--first-color: #286F6C;
+--second-color: #F36744;
+--third-color: #F8F7F1;
+--fourth-color: #0D2F3F;
+--fifth-color: #EDB33C;
+}
+body {
+   background-color: var(--third-color);
+   color: var(--fourth-color);
+    font-family: 'Lemonada', cursive;
+}
+h1 {
+    font-size: 50px;
+}
+.btnCont {
+    color: var(--fifth-color);
+    background-color: var(--first-color);
+    border-radius: 25px;
+    padding: 15px;
+    position: relative;
+    margin-top: -300px;
+    margin-left: 150px;
+}
