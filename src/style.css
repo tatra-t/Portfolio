@@ -1,9 +1,4 @@
-/* #13605A
 
-
-
-
- */
 :root {
 --first-color: #286F6C;
 --second-color: #F36744;
@@ -14,10 +9,18 @@
 body {
    background-color: var(--third-color);
    color: var(--fourth-color);
-    font-family: 'Lemonada', cursive;
+   font-family: 'Lemonada', cursive;
+}
+.bodyHomepage {
+    background-color: var(--third-color);
+}
+.hometit{
+    margin-top: 50px;
 }
 h1 {
     font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
 }
 .btnCont {
     color: var(--fifth-color);
@@ -25,6 +28,25 @@ h1 {
     border-radius: 25px;
     padding: 15px;
     position: relative;
-    margin-top: -300px;
-    margin-left: 150px;
+    margin-top: -570px;
+    margin-left: 250px;
+}
+.card1{
+    background-color: white;
+    border-radius: 20px;
+    border: 2px;
+    border-color: #286F6C;    
+}
+.card2{
+    
+}
+.imgproject{
+    display: block;
+    margin: auto;
+}
+.btnCard{
+    background-color: var(--first-color);
+    color: var(--third-color);
+    border-radius: 25px;
+    padding: 15px 40px;
 }
