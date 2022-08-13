@@ -6,47 +6,49 @@
 --fourth-color: #0D2F3F;
 --fifth-color: #EDB33C;
 }
+.logo{
+    font-family: 'Fasthand', cursive;
+    font-size: 30px;
+    color: var(--fourth-color);
+}
 body {
    background-color: var(--third-color);
    color: var(--fourth-color);
    font-family: 'Lemonada', cursive;
 }
-.bodyHomepage {
-    background-color: var(--third-color);
-}
-.hometit{
-    margin-top: 50px;
-}
-h1 {
-    font-size: 50px;
-    font-weight: bold;
-    margin-top: 50px;
-}
-.btnCont {
+.homebtn {
     color: var(--fifth-color);
-    background-color: var(--first-color);
-    border-radius: 25px;
-    padding: 15px;
-    position: relative;
-    margin-top: -570px;
-    margin-left: 250px;
-}
-.card1{
-    background-color: white;
+    background-color: var(--fourth-color);
     border-radius: 20px;
-    border: 2px;
-    border-color: #286F6C;    
+    border-color: var(--fourth-color);
+    padding: 10px;
+
 }
-.card2{
-    
-}
-.imgproject{
+.homeimg {
+    max-width: 300px;
     display: block;
     margin: auto;
 }
-.btnCard{
-    background-color: var(--first-color);
-    color: var(--third-color);
-    border-radius: 25px;
-    padding: 15px 40px;
+
+h6{
+    margin: 100px 0;
+    font-size: 28px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    margin: 50px 0;
+}
+@media (max-width: 500px) {
+    h1{
+        font-size: 24px;
+    }
+    h2{
+        font-size: 22px;
+    }
+    p{
+        padding: 0 60px;
+    }
+
 }
