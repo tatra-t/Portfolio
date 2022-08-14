@@ -30,24 +30,24 @@ body {
     margin: auto;
 }
 
-h6{
+.homeh6{
     margin: 100px 0;
     font-size: 28px;
 }
-h1{
+.homeh1{
     font-size: 50px;
 }
-h2{
+.homeh2, .abouth3, .abouth2{
     margin: 50px 0;
 }
 @media (max-width: 500px) {
-    h1{
+    .homeh1{
         font-size: 24px;
     }
-    h2{
+    .homeh2{
         font-size: 22px;
     }
-    p{
+    .homep{
         padding: 0 60px;
     }
 
