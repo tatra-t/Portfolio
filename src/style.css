@@ -43,6 +43,16 @@ body {
 .myworkh5{
     font-weight: bold;
 }
+.contactp{
+    font-size: 28px;
+}
+.contactlink {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: var(--first-color);
+    margin-bottom: 35px;
+}
 @media (max-width: 500px) {
     .homeh1{
         font-size: 24px;
