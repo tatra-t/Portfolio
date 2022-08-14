@@ -37,8 +37,11 @@ body {
 .homeh1{
     font-size: 50px;
 }
-.homeh2, .abouth3, .abouth2{
+.homeh2, .abouth3, .abouth2, .myworkh3{
     margin: 50px 0;
+}
+.myworkh5{
+    font-weight: bold;
 }
 @media (max-width: 500px) {
     .homeh1{
