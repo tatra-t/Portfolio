@@ -11,6 +11,9 @@
     font-size: 30px;
     color: var(--fourth-color);
 }
+.logo a{
+    margin-left: ;
+}
 body {
    background-color: var(--third-color);
    color: var(--fourth-color);
@@ -33,9 +36,13 @@ body {
 .homeh6{
     margin: 100px 0;
     font-size: 28px;
+    color: var(--first-color);
 }
 .homeh1{
     font-size: 50px;
+}
+.homeh2 {
+    color: var(--first-color);
 }
 .homeh2, .abouth3, .abouth2, .myworkh3{
     margin: 50px 0;
@@ -53,6 +60,13 @@ body {
     color: var(--first-color);
     margin-bottom: 35px;
 }
+footer a{
+    font-size: 30px;
+    text-decoration: none;
+    color: var(--second-color);
+    margin: 20px;
+
+}
 @media (max-width: 500px) {
     .homeh1{
         font-size: 24px;
@@ -63,5 +77,7 @@ body {
     .homep{
         padding: 0 60px;
     }
-
+    .footermail{
+        font-size: 20px;
+    }
 }
