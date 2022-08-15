@@ -6,13 +6,20 @@
 --fourth-color: #0D2F3F;
 --fifth-color: #EDB33C;
 }
+.navbar-brand, .nav-item {
+    color:var(--first-color);
+}
+.navbar-brand:hover,
+.nav-item:hover {
+    color: var(--second-color);
+}
+.nav-item.active {
+    color: var(--second-color);
+}
 .logo{
     font-family: 'Fasthand', cursive;
     font-size: 30px;
-    color: var(--fourth-color);
-}
-.logo a{
-    margin-left: ;
+
 }
 body {
    background-color: var(--third-color);
@@ -27,6 +34,10 @@ body {
     padding: 10px;
 
 }
+.homebtn:hover {
+    color: var(--second-color);
+}
+
 .homeimg {
     max-width: 300px;
     display: block;
@@ -60,12 +71,18 @@ body {
     color: var(--first-color);
     margin-bottom: 35px;
 }
+.contactlink:hover{
+    color: var(--second-color);
+}
 footer a{
     font-size: 30px;
     text-decoration: none;
     color: var(--second-color);
     margin: 20px;
 
+}
+footer a:hover{
+    color: var(--first-color);
 }
 @media (max-width: 500px) {
     .homeh1{
@@ -80,4 +97,11 @@ footer a{
     .footermail{
         font-size: 20px;
     }
+}
+.sign {
+    font-size: 14px;
+    text-decoration: none;
+}
+.sign a {
+    color: var(--first-color);
 }
